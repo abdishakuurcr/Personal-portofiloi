@@ -1,0 +1,271 @@
+*{
+padding: 0;
+margin: 0;
+/* box-sizing: border-box;
+text-decoration: none; */
+list-style: none;
+}
+.Header{
+background: rgba(0, 0, 0, 0.959);
+display: flex;
+justify-content: space-around;
+backdrop-filter: blur(10px);
+align-items: center;
+z-index: 100;
+width: 100%;
+
+height: 100px;
+position: fixed;
+}
+.Header h1{
+color:aliceblue ;
+font-size: 30px;
+transition: 03s ease;
+font-weight: 600;
+}
+.Header h1 :hover {
+color: chocolate ;
+text-shadow: 0 0 25px orange, 0 0 20px orange;
+transition:  scale(1.1);
+}
+.Header span{
+ color: darkkhaki;
+ font-size: 30px; 
+ font-weight: 600;
+ transition: 03s ease;
+ border-bottom:  3px solid orange;
+}
+
+.Header span :hover{
+color: darkblue;
+text-shadow: 0 0 25px orange, 0 0 20px orange;
+transition:  scale(1.1);
+}
+
+.Header ul {
+ display: flex;
+gap: 30px;
+font-size: 20px;
+color: white;
+}
+.Header ul :hover {
+color: chocolate;
+border-bottom: 3px solid orange;
+}
+
+.home {
+display: flex;
+justify-content: space-around;
+padding-top: 180px;
+text-align: center;
+}
+.home h3{
+font-size: 15px;
+color: black;
+}
+.home h3:hover{
+color: chocolate ;
+text-shadow: 0 0 25px orange, 0 0 20px orange;
+transition:  scale(1.1);
+}
+
+.home span{
+    color: darkkhaki;
+    font-size: 30px; 
+    font-weight: 600;
+    transition: 03s ease;
+    border-bottom:  3px solid orange;
+}
+
+
+.home p{
+width: 400px;
+padding-top: 10px;
+}
+
+.home button {
+padding:  10 20px;
+background: chocolate;
+padding: 4px;
+margin-top: 15px;
+border: none;
+text-align: center;
+}
+
+
+.image-box img{
+ width: 390px;
+ height: 380px;
+border-radius: 50%;
+}
+
+::-webkit-scrollbar-thumb{
+width: 15px;
+}
+::-webkit-scrollbar-thumb{
+background-color: chocolate;
+}
+
+
+::-webkit-scrollbar-track{
+background-color: rgba(0, 0, 0, 0.007);
+}
+
+
+.main {
+background-color: rgba(0, 0, 0, 0.877);
+display: flex;
+justify-content: center ;
+align-items: center;
+padding: 12% 8%;
+gap: 10em;
+height: 80px;
+margin-top: 20px;
+}
+
+.image-main img{
+    width: 200px;
+    height: 200px;
+   border-radius: 50%;    
+}
+.main h1 {
+font-size: 30px;
+color: white;
+font-weight: 700;
+}
+.main span {
+font-size: 30px;
+color: peru;
+font-weight: 700;
+}
+.main h3{
+color: aliceblue;
+font-weight: 700;
+}
+.main p {
+color: white;
+margin-top: 8px;
+width: 400px;
+}
+.main button {
+    border: none;
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+padding: 20 20px;
+background-color: coral;
+margin-top: 15px;
+}
+
+
+.contect-from h2 {
+text-align: center;
+margin-top: 3em;
+margin-bottom:  1em;
+font-size: 37px;
+font-weight: 600;
+}
+.contect-from span {
+color: chocolate;
+}
+
+
+.contect-from from{
+max-width: 50em;
+margin: 1rem outo;
+margin-bottom: 3em;
+
+}
+
+.contect-from from .input-box {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+position: relative;
+}
+
+.contect-from from .input-box input, 
+.contect-from from textarea{
+width: 50%;
+padding: 1.8em;
+font-size: 12px;
+color: black;
+background: rgb(241, 241, 241);
+border-radius: .8rem;
+margin: 1rem 0;
+resize: none;
+}
+.contect-from from textarea{
+margin-left: 23.5%;
+
+position: absolute;
+}
+.btn-1 {
+    color: aliceblue;
+    margin-left: 44%;
+    margin-top: 13px;
+    background-color: black;
+    width: 100px;
+}
+.footer {
+    margin-top: 30px;
+position: relative;
+bottom: 0;
+width: 100%;
+padding: 40px 0;
+background-color: black;
+}
+.footer .social {
+text-align: center;
+padding-bottom: 25px;
+color: white;
+}
+
+.footer .social a {
+font-size: 24px;
+color: white;
+border: 2px solid orangered;
+width: 40px;
+height: 40px;
+line-height: 38px;
+display: inline-block;
+text-align: center;
+border-radius: 50%;
+margin: 0 8px;
+box-shadow: inset 0 0 10px orangered 0 0 10px orangered;
+transition: 0.3s ease;
+}
+.footer .social a:hover{
+transform: scale(1.2)translateY(-10px);
+color: burlywood;
+border: 2px solid orangered;
+}
+.footer ul {
+margin-top: 0;
+padding: 0;
+font-size: 18px;
+line-height: 1.6;
+margin-bottom: 0;
+text-align: center;
+}
+.footer .list {
+color: white;
+border-bottom: 3px solid transparent;
+transition: 0.3es ease;
+}
+
+.footer ul li a:hover{
+border-bottom: 3px solid orangered;
+}
+.footer ul li {
+display: inline-block;
+padding:  0 15px;
+}
+
+.footer .copyright{
+margin-top: 15px;
+text-align: center;
+font-size: 12px;
+color: white;
+}
+
